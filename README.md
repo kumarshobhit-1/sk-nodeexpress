@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/create-nodeexpress.svg)](https://www.npmjs.com/package/create-nodeexpress)
 [![npm downloads](https://img.shields.io/npm/dt/create-nodeexpress.svg)](https://www.npmjs.com/package/create-nodeexpress)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/ShobhitKumar1437/create-nodeexpress?style=social)](https://github.com/ShobhitKumar1437/create-nodeexpress)
+[![GitHub stars](https://img.shields.io/github/stars/kumarshobhit-1/create-nodeexpress?style=social)](https://github.com/kumarshobhit-1/create-nodeexpress)
 
 **`create-nodeexpress`** is an interactive, zero-config CLI generator that instantly scaffolds production-ready Node.js & TypeScript Express backend applications. 
 
