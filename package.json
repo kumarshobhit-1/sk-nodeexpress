@@ -1,0 +1,68 @@
+{
+  "name": "create-nodeexpress",
+  "version": "1.0.0",
+  "description": "Production-ready Node.js & TypeScript Express boilerplate code generator with Authentication, Database, Security & Best Practices pre-configured.",
+  "main": "bin/cli.js",
+  "bin": {
+    "create-nodeexpress": "./bin/cli.js",
+    "nodeexpress-create": "./bin/cli.js"
+  },
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "express",
+    "boilerplate",
+    "authentication",
+    "jwt",
+    "scaffold",
+    "cli",
+    "create-app",
+    "starter-kit",
+    "mongoose",
+    "prisma",
+    "generator"
+  ],
+  "author": "Shobhit Kumar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarshobhit-1/create-nodeexpress.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kumarshobhit-1/create-nodeexpress/issues"
+  },
+  "homepage": "https://github.com/kumarshobhit-1/create-nodeexpress#readme",
+  "files": [
+    "bin",
+    "lib",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.0.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.12.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.3.1",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
