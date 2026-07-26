@@ -1,11 +1,11 @@
 {
-  "name": "create-nodeexpress",
+  "name": "sk-nodeexpress",
   "version": "1.0.0",
   "description": "Production-ready Node.js & TypeScript Express boilerplate code generator with Authentication, Database, Security & Best Practices pre-configured.",
   "main": "bin/cli.js",
   "bin": {
-    "create-nodeexpress": "bin/cli.js",
-    "nodeexpress-create": "bin/cli.js"
+    "sk-nodeexpress": "bin/cli.js",
+    "create-sk-nodeexpress": "bin/cli.js"
   },
   "type": "module",
   "keywords": [
@@ -27,12 +27,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kumarshobhit-1/create-nodeexpress.git"
+    "url": "git+https://github.com/kumarshobhit-1/sk-nodeexpress.git"
   },
   "bugs": {
-    "url": "https://github.com/kumarshobhit-1/create-nodeexpress/issues"
+    "url": "https://github.com/kumarshobhit-1/sk-nodeexpress/issues"
   },
-  "homepage": "https://github.com/kumarshobhit-1/create-nodeexpress#readme",
+  "homepage": "https://github.com/kumarshobhit-1/sk-nodeexpress#readme",
   "files": [
     "bin",
     "lib",

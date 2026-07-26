@@ -1,6 +1,6 @@
 # {{PROJECT_NAME}}
 
-Generated with **`create-nodeexpress`** CLI.
+Generated with **`sk-nodeexpress`** CLI.
 
 Production-ready Node.js & Express API with pre-configured JWT Authentication, Mongoose DB connection, Security Middlewares (Helmet, CORS, Rate Limiting), and standardized API response architecture.
 

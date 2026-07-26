@@ -9,13 +9,13 @@ const program = new Command();
 
 console.log(`
  ${chalk.bold.magenta('==============================================')}
- ${chalk.bold.cyan(' 🚀 CREATE-NODEEXPRESS CLI SCAFFOLDER')}
+ ${chalk.bold.cyan(' 🚀 SK-NODEEXPRESS CLI SCAFFOLDER')}
  ${chalk.bold.yellow(' Ultra-fast Production Node.js & TS Generator')}
  ${chalk.bold.magenta('==============================================')}
 `);
 
 program
-  .name('create-nodeexpress')
+  .name('sk-nodeexpress')
   .description('Generate production-ready Node.js & TypeScript Express boilerplate code with Auth & DB')
   .argument('[project-name]', 'Name of the project directory')
   .option('-y, --yes', 'Skip prompts and use default settings (JavaScript + MongoDB + Auth)')

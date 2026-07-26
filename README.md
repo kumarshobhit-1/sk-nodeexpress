@@ -1,11 +1,11 @@
-# 🚀 create-nodeexpress
+# 🚀 sk-nodeexpress
 
-[![npm version](https://img.shields.io/npm/v/create-nodeexpress.svg)](https://www.npmjs.com/package/create-nodeexpress)
-[![npm downloads](https://img.shields.io/npm/dt/create-nodeexpress.svg)](https://www.npmjs.com/package/create-nodeexpress)
+[![npm version](https://img.shields.io/npm/v/sk-nodeexpress.svg)](https://www.npmjs.com/package/sk-nodeexpress)
+[![npm downloads](https://img.shields.io/npm/dt/sk-nodeexpress.svg)](https://www.npmjs.com/package/sk-nodeexpress)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/kumarshobhit-1/create-nodeexpress?style=social)](https://github.com/kumarshobhit-1/create-nodeexpress)
+[![GitHub stars](https://img.shields.io/github/stars/kumarshobhit-1/sk-nodeexpress?style=social)](https://github.com/kumarshobhit-1/sk-nodeexpress)
 
-**`create-nodeexpress`** is an interactive, zero-config CLI generator that instantly scaffolds production-ready Node.js & TypeScript Express backend applications. 
+**`sk-nodeexpress`** is an interactive, zero-config CLI generator that instantly scaffolds production-ready Node.js & TypeScript Express backend applications. 
 
 Say goodbye to writing repetitive Express boilerplate, JWT authentication logic, environment handling, CORS, Helmet security headers, rate limiting, and database connections from scratch!
 
@@ -39,32 +39,32 @@ Say goodbye to writing repetitive Express boilerplate, JWT authentication logic,
 Generate a new Node.js & Express backend project instantly without installing anything globally:
 
 ```bash
-npx create-nodeexpress
+npx sk-nodeexpress
 ```
 
 Or specify your project name directly:
 
 ```bash
-npx create-nodeexpress my-express-api
+npx sk-nodeexpress my-express-api
 ```
 
 ### Quick Mode (Skip Prompts)
 
 ```bash
-npx create-nodeexpress my-express-api --yes
+npx sk-nodeexpress my-express-api --yes
 ```
 
 For TypeScript:
 
 ```bash
-npx create-nodeexpress my-ts-api --yes --ts
+npx sk-nodeexpress my-ts-api --yes --ts
 ```
 
 ---
 
 ## 💻 Interactive Options in CLI
 
-When you run `npx create-nodeexpress`, you will be asked:
+When you run `npx sk-nodeexpress`, you will be asked:
 1. **Project Name**: Name of your project directory.
 2. **Language**: JavaScript (ES Modules) or TypeScript.
 3. **Database**: MongoDB (Mongoose) or None (Standalone Express).
@@ -122,7 +122,7 @@ If you want to publish this package to NPM under your account:
    ```
 3. Once published, anyone in the world can run:
    ```bash
-   npx create-nodeexpress my-new-project
+   npx sk-nodeexpress my-new-project
    ```
 
 ---
