@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/sk-nodeexpress.svg)](https://www.npmjs.com/package/sk-nodeexpress)
 [![npm downloads](https://img.shields.io/npm/dt/sk-nodeexpress.svg)](https://www.npmjs.com/package/sk-nodeexpress)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/kumarshobhit-1/sk-nodeexpress?style=social)](https://github.com/kumarshobhit-1/sk-nodeexpress)
+[![GitHub stars](https://img.shields.io/github/stars/kumarshobhit-1/create-nodeexpress?style=social)](https://github.com/kumarshobhit-1/create-nodeexpress)
 
 **`sk-nodeexpress`** is an interactive, zero-config CLI generator that instantly scaffolds production-ready Node.js & TypeScript Express backend applications. 
 
