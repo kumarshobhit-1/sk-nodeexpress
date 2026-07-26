@@ -1,6 +1,6 @@
 {
   "name": "sk-nodeexpress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Production-ready Node.js & TypeScript Express boilerplate code generator with Authentication, Database, Security & Best Practices pre-configured.",
   "main": "bin/cli.js",
   "bin": {
