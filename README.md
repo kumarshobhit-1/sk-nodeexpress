@@ -108,25 +108,6 @@ my-express-api/
 
 ---
 
-## 🚢 How to Publish This Package to NPM
-
-If you want to publish this package to NPM under your account:
-
-1. **Log in to NPM** in your terminal:
-   ```bash
-   npm login
-   ```
-2. **Publish the Package**:
-   ```bash
-   npm publish --access public
-   ```
-3. Once published, anyone in the world can run:
-   ```bash
-   npx sk-nodeexpress my-new-project
-   ```
-
----
-
 ## 📄 License
 
 MIT © Shobhit Kumar
