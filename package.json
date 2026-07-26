@@ -4,8 +4,8 @@
   "description": "Production-ready Node.js & TypeScript Express boilerplate code generator with Authentication, Database, Security & Best Practices pre-configured.",
   "main": "bin/cli.js",
   "bin": {
-    "create-nodeexpress": "./bin/cli.js",
-    "nodeexpress-create": "./bin/cli.js"
+    "create-nodeexpress": "bin/cli.js",
+    "nodeexpress-create": "bin/cli.js"
   },
   "type": "module",
   "keywords": [
