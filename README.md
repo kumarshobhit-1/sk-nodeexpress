@@ -11,7 +11,21 @@ Say goodbye to writing repetitive Express boilerplate, JWT authentication logic,
 
 ---
 
-## ✨ Features Included Out of the Box
+## 📌 Table of Contents
+
+- [🚀 Features](#-features)
+- [📦 Installation](#-installation)
+- [⚡ Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [🔧 Environment Variables](#-environment-variables)
+- [📜 Available Scripts](#-available-scripts)
+- [📚 API Example](#-api-example)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🚀 Features
 
 - ⚡ **Express Server Core**: Pre-configured app & server entry point with clean modular architecture.
 - 🔐 **Pre-built JWT Authentication**:
@@ -34,9 +48,9 @@ Say goodbye to writing repetitive Express boilerplate, JWT authentication logic,
 
 ---
 
-## ⚡ Quick Usage
+## 📦 Installation
 
-Generate a new Node.js & Express backend project instantly without installing anything globally:
+No global installation is required! Run directly using `npx`:
 
 ```bash
 npx sk-nodeexpress
@@ -48,33 +62,35 @@ Or specify your project name directly:
 npx sk-nodeexpress my-express-api
 ```
 
-### Quick Mode (Skip Prompts)
+---
 
+## ⚡ Quick Start
+
+### 1. Interactive Mode (Default)
 ```bash
-npx sk-nodeexpress my-express-api --yes
+npx sk-nodeexpress my-app
+```
+Follow the interactive terminal questionnaire to choose between JavaScript/TypeScript, Database options, and Authentication settings.
+
+### 2. Fast Mode (Skip Prompts)
+```bash
+npx sk-nodeexpress my-app --yes
 ```
 
 For TypeScript:
-
 ```bash
-npx sk-nodeexpress my-ts-api --yes --ts
+npx sk-nodeexpress my-ts-app --yes --ts
+```
+
+### 3. Run the Generated Project
+```bash
+cd my-app
+npm run dev
 ```
 
 ---
 
-## 💻 Interactive Options in CLI
-
-When you run `npx sk-nodeexpress`, you will be asked:
-1. **Project Name**: Name of your project directory.
-2. **Language**: JavaScript (ES Modules) or TypeScript.
-3. **Database**: MongoDB (Mongoose) or None (Standalone Express).
-4. **Authentication**: Include JWT Auth boilerplate (Yes/No).
-5. **Security Middlewares**: Include Helmet, CORS, Rate limiting, Morgan (Yes/No).
-6. **Auto Install**: Automatically run `npm install` inside the new project (Yes/No).
-
----
-
-## 📁 Generated Project Structure
+## 📁 Project Structure
 
 ```text
 my-express-api/
@@ -82,9 +98,9 @@ my-express-api/
 │   ├── config/
 │   │   └── db.js            # MongoDB Mongoose Connection
 │   ├── controllers/
-│   │   ├── authController.js# Register, Login, Me Profile logic
-│   │   ├── userController.js# User management controllers
-│   │   └── healthController.js # Server status endpoint
+│   │   ├── authController.js# Register, Login, Profile controllers
+│   │   ├── userController.js# User management logic
+│   │   └── healthController.js # Server healthcheck endpoint
 │   ├── middlewares/
 │   │   ├── authMiddleware.js# JWT Guard & Role verification
 │   │   ├── errorMiddleware.js# Global Error & 404 handler
@@ -97,7 +113,7 @@ my-express-api/
 │   │   └── healthRoutes.js  # Health endpoint
 │   ├── utils/
 │   │   ├── apiResponse.js   # Standardized JSON response wrapper
-│   │   └── jwt.js           # JWT Sign & Verify helper functions
+│   │   └── jwt.js           # JWT Sign & Verify helpers
 │   ├── app.js               # Express application setup
 │   └── server.js            # Server listener
 ├── .env.example             # Environment template
@@ -105,6 +121,71 @@ my-express-api/
 ├── package.json             # App dependencies & npm scripts (dev, start)
 └── README.md                # Generated project documentation
 ```
+
+---
+
+## 🔧 Environment Variables
+
+The generated project creates a default `.env` file from `.env.example`:
+
+```env
+PORT=5000
+NODE_ENV=development
+MONGODB_URI=mongodb://localhost:27017/my_sknodejs_db
+JWT_SECRET=super_secret_jwt_key_change_in_prod
+JWT_EXPIRES_IN=7d
+CORS_ORIGIN=*
+```
+
+---
+
+## 📜 Available Scripts
+
+Inside the generated project, you can run:
+
+- `npm run dev`: Starts the development server with live watch/reload mode.
+- `npm start`: Starts the production Node.js server.
+- `npm run build` *(TypeScript only)*: Compiles TypeScript code into `dist/`.
+
+---
+
+## 📚 API Example
+
+### 1. Register User
+`POST /api/v1/auth/register`
+```json
+{
+  "name": "Jane Doe",
+  "email": "jane@example.com",
+  "password": "password123"
+}
+```
+
+### 2. Login User
+`POST /api/v1/auth/login`
+```json
+{
+  "email": "jane@example.com",
+  "password": "password123"
+}
+```
+
+### 3. Get User Profile (Protected)
+`GET /api/v1/auth/me`
+Header: `Authorization: Bearer <your_jwt_token>`
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/kumarshobhit-1/create-nodeexpress/issues).
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
