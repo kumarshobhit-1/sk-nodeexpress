@@ -1,44 +1,62 @@
 {
   "name": "sk-nodeexpress",
-  "version": "1.0.1",
-  "description": "Production-ready Node.js & TypeScript Express boilerplate code generator with Authentication, Database, Security & Best Practices pre-configured.",
+  "version": "1.1.0",
+  "description": "Production-ready Node.js & TypeScript Express REST API generator pre-configured with JWT Auth, Mongoose, Zod Validation, Helmet Security, Rate Limiting, Docker & Swagger.",
   "main": "bin/cli.js",
+  "exports": {
+    ".": "./bin/cli.js"
+  },
   "bin": {
     "sk-nodeexpress": "bin/cli.js",
     "create-sk-nodeexpress": "bin/cli.js"
   },
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
+    "create-express-app",
+    "express-cli",
+    "sk-nodeexpress",
+    "express-typescript",
+    "rest-api-boilerplate",
+    "express-starter",
+    "jwt-authentication",
+    "zod",
+    "docker",
+    "swagger",
+    "mongoose",
+    "node-backend-generator",
     "nodejs",
     "typescript",
     "express",
     "boilerplate",
-    "authentication",
-    "jwt",
     "scaffold",
     "cli",
-    "create-app",
-    "starter-kit",
-    "mongoose",
-    "prisma",
-    "generator"
+    "create-app"
   ],
-  "author": "Shobhit Kumar",
+  "author": "Shobhit Kumar <shobhitkumar1437@gmail.com>",
   "license": "MIT",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/kumarshobhit-1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kumarshobhit-1/sk-nodeexpress.git"
+    "url": "git+https://github.com/kumarshobhit-1/create-nodeexpress.git"
   },
   "bugs": {
-    "url": "https://github.com/kumarshobhit-1/sk-nodeexpress/issues"
+    "url": "https://github.com/kumarshobhit-1/create-nodeexpress/issues"
   },
-  "homepage": "https://github.com/kumarshobhit-1/sk-nodeexpress#readme",
+  "homepage": "https://github.com/kumarshobhit-1/create-nodeexpress#readme",
   "files": [
     "bin",
     "lib",
     "templates",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md"
   ],
   "dependencies": {
     "chalk": "^5.3.0",
@@ -60,7 +78,8 @@
     "express-rate-limit": "^7.2.0",
     "helmet": "^7.1.0",
     "mongoose": "^8.3.1",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "zod": "^3.23.8"
   },
   "engines": {
     "node": ">=16.0.0"
