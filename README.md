@@ -2,12 +2,15 @@
 
 [![npm version](https://img.shields.io/npm/v/sk-nodeexpress.svg)](https://www.npmjs.com/package/sk-nodeexpress)
 [![npm downloads](https://img.shields.io/npm/dt/sk-nodeexpress.svg)](https://www.npmjs.com/package/sk-nodeexpress)
+[![Dev.to Article](https://img.shields.io/badge/Dev.to-Read%20Article-black?style=flat&logo=dev.to)](https://dev.to/shobhit_kumar_f4d8a243152/stop-writing-express-boilerplate-build-a-production-ready-rest-api-in-minutes-1on5)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/kumarshobhit-1/create-nodeexpress?style=social)](https://github.com/kumarshobhit-1/create-nodeexpress)
 
 **`sk-nodeexpress`** is an ultra-fast, zero-config CLI generator that instantly scaffolds production-ready Node.js & TypeScript Express backend REST APIs. 
 
 Say goodbye to spending hours writing repetitive Express boilerplate, JWT authentication logic, Zod validation schemas, environment handling, CORS, Helmet security headers, rate limiting, Docker setups, and database connections from scratch!
+
+> 📖 **Featured Article on Dev.to**: [Stop Writing Express Boilerplate: Build a Production-Ready REST API in Minutes](https://dev.to/shobhit_kumar_f4d8a243152/stop-writing-express-boilerplate-build-a-production-ready-rest-api-in-minutes-1on5)
 
 ![SK-NODEEXPRESS CLI Scaffolder](https://raw.githubusercontent.com/kumarshobhit-1/create-nodeexpress/main/assets/cli.png)
 
